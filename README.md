@@ -1,2 +1,2 @@
 # exercitando
- Treinado aulas na prática
+ Treinando aulas na prática
