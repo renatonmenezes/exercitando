@@ -6,8 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        #veic {
+            margin-top: 10px;
+        }
+
+        fieldset {
+            height: 150px;
+            width: 300px;
+        }
+    </style>
 </head>
 <body>
     <h1>Treinando formulários</h1>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" >
+            </p>
+            <p>
+                <label for="iend">Endereço:</label>
+                <input type="text" name="end" id="iend" >
+            </p>
+            <p>
+                <label for="itel">Tel.:</label>
+                <input type="text" name="tel" id="itel" >
+            </p>
+        </fieldset>
+        <fieldset id="veic">
+            <legend>Dados do Veículo</legend>
+            <p>
+                <label for="iveic">Marca/Modelo:</label>
+                <input type="text" name="veic" id="iveic" >
+            </p>
+            <p>
+                <label for="iano">Ano:</label>
+                <input type="number" name="ano" id="iano">
+            </p>
+            <p>
+                <label for="icor">Cor:</label>
+                <input type="text" name="cor" id="icor">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
